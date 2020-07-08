@@ -1,0 +1,84 @@
+.sensor_content{
+  padding:0 30px;
+  .menu_box{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-end;
+    justify-content:flex-end;
+    padding:30px 0;
+    position: relative;
+    .icon_box{
+      //padding-right:15px;
+    }
+    .menu_box_down{
+      position:absolute;
+      top:80px;
+      z-index:99999;
+      .xiaosanjiao{
+        width: 0;
+        height: 0;
+        margin-left:80px;
+        border-width:20px;
+        border-style: solid;
+        border-color: #999 transparent transparent transparent;
+        transform:rotate(180deg);
+      }
+    }
+    .menu_list_box{
+      width:140px;
+      font-size:28px;
+      background-color:#999;
+      color:#fff;
+      border-radius:5px;
+      .menu_list_box_item_2{
+        margin:0 10px;
+        border-top:1px solid #f9f9f9;
+        border-bottom:1px solid #f9f9f9;
+      }
+      .menu_list_box_item{
+        text-align:center;
+        height:84px;
+        line-height:84px;
+      }
+    }
+  }
+  .btn_box{
+    margin-top:84px;
+  }
+  .list_item{
+    margin-bottom:30px;
+  }
+  .input_item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom:1px solid #f4f4f4;
+    height:104px;
+    line-height:104px;
+    font-size:28px;
+    color:#666;
+    background-color:#f4f4f4;
+    padding:0 15px;
+    .input_item_center{
+      flex:1;
+      text-align: right;
+      .radio_box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        .radio_box_left{
+          margin-right:30px;
+        }
+      }
+    }
+    .input_item_left{
+      width: 160px;
+    }
+    .input_item_right{
+      width:160px;
+      text-align: right;
+    }
+  }
+}
